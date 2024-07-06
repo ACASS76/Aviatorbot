@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.message {
+    font-size: 1.5em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#acessar-bot {
+    background-color: red;
+    color: white;
+    animation: heartbeat 1s infinite;
+}
+
+#whatsapp-bot {
+    background-color: green;
+    color: white;
+}
